@@ -27,6 +27,13 @@ class Main extends Component {
                             <Route path="/office-design" element={<OfficeDesign />}/>
                         </Routes>
                     </div>
+                    <footer>
+                        Wytheville Office Supply &#9670; 
+                        146 West Main Street, Wytheville, VA 24382 &#9670; 
+                        Phone: 1-800-344-0356 &#9670; 
+                        Fax: 1-800-887-4032 &#9670; 
+                        Email Support: lorrieallison@wythevilleofficesupply.com
+                    </footer>
                 </div>
             </HashRouter>
         );

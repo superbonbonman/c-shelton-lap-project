@@ -8,6 +8,14 @@ h1, h2, h3 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+footer {
+  background-color: navy;
+  text-align: center;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #FFF;
+}
+
 p, ul, li {
   font-family: sans-serif;
 }
@@ -34,11 +42,16 @@ ul.header li a {
 .content {
   background-color: lightskyblue;
   padding: 20px;
+  text-align: center;
 }
 
 .content h2 {
   padding: 0;
   margin: 0;
+}
+
+.content li {
+  list-style-type: none;
 }
 
 .content li {
